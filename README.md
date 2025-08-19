@@ -37,36 +37,27 @@ TODO_final/
 ---
 
 ## ⚡ Setup Instructions
-1. Clone the repository:
+
    ```bash
    git clone https://github.com/githuanand/TO-DO-LIST-Django.git
    cd TO-DO-LIST-Django
-2. Create & activate virtual environment:
+   setup_instructions:
 
-python -m venv venv
-venv\Scripts\activate   # On Windows
-source venv/bin/activate # On Mac/Linux
+   create_and_activate_virtual_environment:
+    windows: "venv\\Scripts\\activate"
+    mac_linux: "source venv/bin/activate"
+    command: "python -m venv venv"
 
+   install_dependencies:
+    command: "pip install -r requirements.txt"
 
-3. Install dependencies:
+   run_migrations:
+    command: "python manage.py migrate"
 
-  pip install -r requirements.txt
+   create_superuser:
+    command: "python manage.py createsuperuser"
 
+   start_development_server:
+    command: "python manage.py runserver"
+    open_in_browser: "http://127.0.0.1:8000/"
 
-4. Run migrations:
-
-  python manage.py migrate
-
-
-5. Create superuser (for admin access):
-
-  python manage.py createsuperuser
-
-
-6. Start development server:
-
-  python manage.py runserver
-
-
-7. Now open http://127.0.0.1:8000/
-   in your browser
