@@ -84,3 +84,19 @@ python manage.py runserver
 ![Register Page](https://github.com/user-attachments/assets/872c62f5-30a5-4373-a074-4c2e820bd1d7)
 
 
+### 🤝 Contributing
+```
+Contributions are welcome!
+
+Fork the repository
+
+Create a new feature branch (git checkout -b feature-name)
+
+Commit your changes (git commit -m "Added feature XYZ")
+
+Push to your branch (git push origin feature-name)
+
+Open a Pull Request 🎉
+```
+
+### ✨ Built with ❤️ using Django ✨
