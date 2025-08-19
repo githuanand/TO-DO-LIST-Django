@@ -46,9 +46,13 @@ TODO_final/
 
 Project:
   name: "TO-DO-LIST-Django"
+  
   description: "Full Stack Django To-Do List app with user authentication"
+  
   author: "githuanand"
+  
   license: "MIT"
+
 
 Features:
   - "User Registration & Login (Authentication)"
