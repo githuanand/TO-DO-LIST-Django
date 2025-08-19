@@ -1,8 +1,13 @@
-# 📝 TO-DO-LIST-Django
+# 📝 TO-DO-LIST-Django  
 
-A **Full Stack To-Do List Web Application** built using **Django, HTML, CSS** with user authentication.  
-This project allows users to register, login, manage their tasks (create, edit, delete), and logout securely.
+![Django](https://img.shields.io/badge/Django-5.0-green?logo=django&logoColor=white)  
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=yellow)  
+![License](https://img.shields.io/badge/License-MIT-orange)  
+![Status](https://img.shields.io/badge/Status-Active-success)  
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen)  
 
+A **Full Stack To-Do List Web Application** built using **Django, HTML, and CSS** with user authentication.  
+This project allows users to register, login, create tasks, edit them, mark them complete/incomplete, and delete them.  
 ---
 
 ## 🚀 Features
