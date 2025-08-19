@@ -29,7 +29,7 @@ Users can register, login, add tasks, edit them, mark as complete/incomplete, an
 
 ---
 
-## 📂 Project Structure
+### 📂 Project Structure
 ```yaml
 TODO_final/
 │── base/                 # Core app (Task management)
@@ -43,3 +43,44 @@ TODO_final/
 │── requirements.txt      # Dependencies
 │── README.md             # Documentation
 │── .gitignore            # Ignored files
+```
+### SetUp Instructions
+```
+# 1️⃣ Clone the Repository
+git clone https://github.com/<your-username>/TO-DO-LIST-Django.git
+cd TO-DO-LIST-Django
+
+# 2️⃣ Create & Activate Virtual Environment
+python -m venv venv
+
+# ▶ On Windows
+venv\Scripts\activate
+
+# ▶ On Mac/Linux
+source venv/bin/activate
+
+# 3️⃣ Install Dependencies
+pip install -r requirements.txt
+
+# 4️⃣ Run Migrations
+python manage.py migrate
+
+# 5️⃣ Create Superuser (for Admin Access)
+python manage.py createsuperuser
+
+# 6️⃣ Start Development Server
+python manage.py runserver
+```
+
+## 📸 Screenshots
+
+### 🏠 Home Page  
+![Home Page](https://github.com/user-attachments/assets/8b67d332-e402-4fc0-8bd7-09598200afe6)
+
+### 🔑 Login Page  
+![Login Page](https://github.com/user-attachments/assets/4c120b31-9795-4584-9eb6-3cf8438a42dc)
+
+### 📝 Register Page  
+![Register Page](https://github.com/user-attachments/assets/872c62f5-30a5-4373-a074-4c2e820bd1d7)
+
+
