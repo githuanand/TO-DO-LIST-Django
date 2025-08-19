@@ -44,7 +44,9 @@ TODO_final/
 
 
 
-Project:
+
+### Project:
+
   name: "TO-DO-LIST-Django"
   
   description: "Full Stack Django To-Do List app with user authentication"
@@ -54,12 +56,19 @@ Project:
   license: "MIT"
 
 
+
+
 Features:
   - "User Registration & Login (Authentication)"
+    
   - "Add, Edit, and Delete Tasks"
+    
   - "Mark tasks as complete/incomplete"
+    
   - "Organized Templates (Base, Nav, Home, Edit, Login/Register, etc.)"
+    
   - "Static Files (CSS, Images)"
+    
   - "SQLite database (default Django DB)"
     
 
@@ -71,8 +80,9 @@ Tech_stack:
 
   
 
-Project_structure:
+### Project_structure:
   root:
+  
     - manage.py
     - db.sqlite3 (excluded in git)
     - requirements.txt
@@ -82,30 +92,36 @@ Project_structure:
 
     
   TODO_final:
+  
     - base/  # Core app (Task management)
     - authen/  # Authentication app
     - static/  # CSS, Images
     - templates/  # Shared HTML templates
 
 
-Setup_instructions:
-  create_and_activate_virtual_environment:
-    command: "python -m venv venv"
-    windows: "venv\\Scripts\\activate"
-    mac_linux: "source venv/bin/activate"
+Setup_instructions: 
+
+    - create_and_activate_virtual_environment:
+    - command: "python -m venv venv"
+    - windows: "venv\\Scripts\\activate"
+    - mac_linux: "source venv/bin/activate"
 
 
   install_dependencies:
+  
     command: "pip install -r requirements.txt"
 
 
   run_migrations:
+  
     command: "python manage.py migrate"
 
   create_superuser:
+  
     command: "python manage.py createsuperuser"
 
   start_development_server:
+  
     command: "python manage.py runserver"
     open_in_browser: "http://127.0.0.1:8000/"
 
@@ -113,6 +129,7 @@ Setup_instructions:
 
 git_setup:
   gitignore:
+  
     content: |
       # Python
       *.pyc
@@ -137,6 +154,7 @@ git_setup:
       .vscode/
  
   requirements:
+  
     generate: "pip freeze > requirements.txt"
     push:
       - "git add requirements.txt"
@@ -145,8 +163,11 @@ git_setup:
 
 
 license:
+
   type: "MIT"
+  
   content: |
+  
     MIT License
 
 
@@ -170,7 +191,9 @@ license:
 
 
 Contribution:
+
   steps:
+  
     - "Fork the repository"
     - "Create a new branch (git checkout -b feature-branch)"
     - "Make your changes"
@@ -181,6 +204,8 @@ Contribution:
 
 
 screenshots:
+
+
   - "Home Page: <img width="1365" height="612" alt="image" src="https://github.com/user-attachments/assets/8b67d332-e402-4fc0-8bd7-09598200afe6" />
 
   - "Login Page: <img width="1332" height="611" alt="image" src="https://github.com/user-attachments/assets/4c120b31-9795-4584-9eb6-3cf8438a42dc" />
